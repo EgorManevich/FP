@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9b296b8c-f97c-4cb4-8762-5f66bad2c3dc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/CSharp/MergeSortTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpSort/CSharpQuickSort.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpSort/CSharpQuickSortTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpSort/CSharpSort.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Common.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/MiscExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/Main.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Main.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Program.cs" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSharp/QuickSort.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <marker date="1558208083963" expanded="true" signature="120:1455" ph="{...}" />
+                <marker date="1558208083963" expanded="true" signature="304:684" ph="{...}" />
+                <marker date="1558208083963" expanded="true" signature="328:360" ph="{...}" />
+                <marker date="1558208083963" expanded="true" signature="825:1081" ph="{...}" />
+                <marker date="1558208083963" expanded="true" signature="927:1071" ph="{...}" />
+                <marker date="1558208083963" expanded="true" signature="952:1005" ph="{...}" />
+                <marker date="1558208083963" expanded="true" signature="1216:1452" ph="{...}" />
+                <marker date="1558208083963" expanded="true" signature="1306:1442" ph="{...}" />
+                <marker date="1558208083963" expanded="true" signature="1331:1380" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSharp/MergeSort.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <marker date="1558208083951" expanded="true" signature="120:1648" ph="{...}" />
+                <marker date="1558208083951" expanded="true" signature="184:457" ph="{...}" />
+                <marker date="1558208083951" expanded="true" signature="211:236" ph="{...}" />
+                <marker date="1558208083951" expanded="true" signature="264:289" ph="{...}" />
+                <marker date="1558208083951" expanded="true" signature="552:962" ph="{...}" />
+                <marker date="1558208083951" expanded="true" signature="574:598" ph="{...}" />
+                <marker date="1558208083951" expanded="true" signature="620:643" ph="{...}" />
+                <marker date="1558208083951" expanded="true" signature="805:878" ph="{...}" />
+                <marker date="1558208083951" expanded="true" signature="1029:1645" ph="{...}" />
+                <marker date="1558208083951" expanded="true" signature="1063:1607" ph="{...}" />
+                <marker date="1558208083951" expanded="true" signature="1162:1205" ph="{...}" />
+                <marker date="1558208083951" expanded="true" signature="1309:1602" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSharp/MiscExtensions.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSharp/QuickSortTests.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <marker date="1558208083941" expanded="true" signature="129:839" ph="{...}" />
+                <marker date="1558208083941" expanded="true" signature="383:444" ph="{...}" />
+                <marker date="1558208083941" expanded="true" signature="536:591" ph="{...}" />
+                <marker date="1558208083941" expanded="true" signature="673:836" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSharp/MergeSortTests.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <marker date="1558208083927" expanded="true" signature="136:1052" ph="{...}" />
+                <marker date="1558208083927" expanded="true" signature="546:611" ph="{...}" />
+                <marker date="1558208083927" expanded="true" signature="725:783" ph="{...}" />
+                <marker date="1558208083927" expanded="true" signature="877:1046" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSharp/CSharp.csproj">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSharp/TestSources.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+              <folding>
+                <marker date="1558207056043" expanded="true" signature="55:1446" ph="{...}" />
+                <marker date="1558207056043" expanded="true" signature="103:261" ph="{...}" />
+                <marker date="1558207056043" expanded="true" signature="306:581" ph="{...}" />
+                <marker date="1558207056043" expanded="true" signature="647:1045" ph="{...}" />
+                <marker date="1558207056043" expanded="true" signature="1117:1439" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FSharp/FSharp.fsproj">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FSharp/UnitTest1.fs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FSharp/Program.fs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/CSharp/MiscExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FSharp/Program.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CSharp/QuickSortTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CSharp/TestSources.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CSharp/QuickSort.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CSharp/MergeSort.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Main/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FSharp/UnitTest1.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CSharp/MergeSortTests.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Common/MiscExtensions.cs" />
+        <option value="$PROJECT_DIR$/Main/Program.cs" />
+        <option value="$PROJECT_DIR$/CSharp/CSharp.csproj" />
+        <option value="$PROJECT_DIR$/CSharp/CSharpSortTestSources.cs" />
+        <option value="$PROJECT_DIR$/CSharp/CSharpQuickSortTests.cs" />
+        <option value="$PROJECT_DIR$/CSharp/CSharpQuickSort.cs" />
+        <option value="$PROJECT_DIR$/CSharp/CSharpMergeSort.cs" />
+        <option value="$PROJECT_DIR$/CSharp/SortTestSources.cs" />
+        <option value="$PROJECT_DIR$/CSharp/TestSources.cs" />
+        <option value="$PROJECT_DIR$/CSharp/MergeSortTests.cs" />
+        <option value="$PROJECT_DIR$/CSharp/MergeSort.cs" />
+        <option value="$PROJECT_DIR$/CSharp/QuickSort.cs" />
+        <option value="$PROJECT_DIR$/CSharp/QuickSortTests.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="FileSystemExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="Lab2" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="Lab2" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="CSharp" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="Lab2" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="FSharp" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/FSharp" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.328594" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" weight="0.52606636" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="15" weight="0.328594" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Common/MiscExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+          <folding>
+            <marker date="1558203504579" expanded="true" signature="6:92" ph="..." />
+            <marker date="1558203504579" expanded="true" signature="111:1151" ph="{...}" />
+            <marker date="1558203504579" expanded="true" signature="149:1149" ph="{...}" />
+            <marker date="1558203504579" expanded="true" signature="196:943" ph="{...}" />
+            <marker date="1558203504579" expanded="true" signature="227:891" ph="{...}" />
+            <marker date="1558203504579" expanded="true" signature="244:886" ph="{...}" />
+            <marker date="1558203504579" expanded="true" signature="327:361" ph="{...}" />
+            <marker date="1558203504579" expanded="true" signature="1002:1050" ph="{...}" />
+            <marker date="1558203504579" expanded="true" signature="1112:1146" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+          <folding>
+            <marker date="1558203522313" expanded="true" signature="15:78" ph="{...}" />
+            <marker date="1558203522313" expanded="true" signature="32:76" ph="{...}" />
+            <marker date="1558203522313" expanded="true" signature="68:73" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSharp/CSharp.csproj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSharp/MergeSort.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <marker date="1558208083951" expanded="true" signature="120:1648" ph="{...}" />
+            <marker date="1558208083951" expanded="true" signature="184:457" ph="{...}" />
+            <marker date="1558208083951" expanded="true" signature="211:236" ph="{...}" />
+            <marker date="1558208083951" expanded="true" signature="264:289" ph="{...}" />
+            <marker date="1558208083951" expanded="true" signature="552:962" ph="{...}" />
+            <marker date="1558208083951" expanded="true" signature="574:598" ph="{...}" />
+            <marker date="1558208083951" expanded="true" signature="620:643" ph="{...}" />
+            <marker date="1558208083951" expanded="true" signature="805:878" ph="{...}" />
+            <marker date="1558208083951" expanded="true" signature="1029:1645" ph="{...}" />
+            <marker date="1558208083951" expanded="true" signature="1063:1607" ph="{...}" />
+            <marker date="1558208083951" expanded="true" signature="1162:1205" ph="{...}" />
+            <marker date="1558208083951" expanded="true" signature="1309:1602" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSharp/MiscExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSharp/MergeSortTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <marker date="1558208083927" expanded="true" signature="136:1052" ph="{...}" />
+            <marker date="1558208083927" expanded="true" signature="546:611" ph="{...}" />
+            <marker date="1558208083927" expanded="true" signature="725:783" ph="{...}" />
+            <marker date="1558208083927" expanded="true" signature="877:1046" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSharp/QuickSort.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <marker date="1558208083963" expanded="true" signature="120:1455" ph="{...}" />
+            <marker date="1558208083963" expanded="true" signature="304:684" ph="{...}" />
+            <marker date="1558208083963" expanded="true" signature="328:360" ph="{...}" />
+            <marker date="1558208083963" expanded="true" signature="825:1081" ph="{...}" />
+            <marker date="1558208083963" expanded="true" signature="927:1071" ph="{...}" />
+            <marker date="1558208083963" expanded="true" signature="952:1005" ph="{...}" />
+            <marker date="1558208083963" expanded="true" signature="1216:1452" ph="{...}" />
+            <marker date="1558208083963" expanded="true" signature="1306:1442" ph="{...}" />
+            <marker date="1558208083963" expanded="true" signature="1331:1380" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSharp/QuickSortTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <marker date="1558208083941" expanded="true" signature="129:839" ph="{...}" />
+            <marker date="1558208083941" expanded="true" signature="383:444" ph="{...}" />
+            <marker date="1558208083941" expanded="true" signature="536:591" ph="{...}" />
+            <marker date="1558208083941" expanded="true" signature="673:836" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSharp/TestSources.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+          <folding>
+            <marker date="1558207056043" expanded="true" signature="55:1446" ph="{...}" />
+            <marker date="1558207056043" expanded="true" signature="103:261" ph="{...}" />
+            <marker date="1558207056043" expanded="true" signature="306:581" ph="{...}" />
+            <marker date="1558207056043" expanded="true" signature="647:1045" ph="{...}" />
+            <marker date="1558207056043" expanded="true" signature="1117:1439" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FSharp/FSharp.fsproj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FSharp/Program.fs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FSharp/UnitTest1.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

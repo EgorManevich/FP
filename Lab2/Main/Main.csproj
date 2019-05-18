@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\CSharpSort\CSharpSort.csproj" />
+    <ProjectReference Include="..\CSharp\CSharp.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
