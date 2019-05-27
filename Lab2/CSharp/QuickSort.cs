@@ -18,7 +18,7 @@ namespace CSharp {
 			return lessSorted.Concat(head.ToEnumerable()).Concat(greaterOrEqualSorted);
 		}
 
-		internal static (IEnumerable<T> left, IEnumerable<T> right) SplitBy_v1LinkedList<T>(this IEnumerable<T> source, Func<T, bool> preficate) {
+        public static (IEnumerable<T> left, IEnumerable<T> right) SplitBy_v1LinkedList<T>(this IEnumerable<T> source, Func<T, bool> preficate) {
 			return source.Aggregate((left: new LinkedList<T>(), right: new LinkedList<T>()),
 				(acc, x) => {
 					if (preficate(x)) {
@@ -32,7 +32,7 @@ namespace CSharp {
 			);
 		}
 
-		internal static (IEnumerable<T> left, IEnumerable<T> right) SplitBy_v2List<T>(this IEnumerable<T> source, Func<T, bool> preficate) {
+		public static (IEnumerable<T> left, IEnumerable<T> right) SplitBy_v2List<T>(this IEnumerable<T> source, Func<T, bool> preficate) {
 			return source.Aggregate((left: new List<T>(), right: new List<T>()),
 				(acc, x) => {
 					if (preficate(x)) {

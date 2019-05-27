@@ -17,7 +17,7 @@ namespace CSharp {
 			return Merge(left, right);
 		}
 
-		internal static IEnumerable<int> Merge(this IEnumerable<int> left, IEnumerable<int> right) {
+		public static IEnumerable<int> Merge(this IEnumerable<int> left, IEnumerable<int> right) {
 			if (!left.Any()) {
 				return right;
 			}
@@ -39,9 +39,11 @@ namespace CSharp {
 			IEnumerable<T[]> SplitInto() {
 				int length = source.Length;
 				count = length < count ? length : count;
-				if (count == 0) {
-					yield return Array.Empty<T>();
-				}
+                if (count == 0) {
+                    for (int i = 0; i < count; i++) {
+                        yield return Array.Empty<T>();
+                    }
+                }
 				int maxPartLength = (int)Math.Ceiling((double)length / count);
 				for (int i = 0; i < count; i++) {
 					int sourceIndex = i * maxPartLength;

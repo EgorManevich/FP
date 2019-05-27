@@ -1,0 +1,46 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 8 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet restore  /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 in D:\Projects\FP\Lab2\Main\bin\Release\netcoreapp2.2\7df8c436-75f5-4926-8160-df1ae38ac628
+// command took 2.26s and exited with 0
+// start dotnet build -c Release  --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 in D:\Projects\FP\Lab2\Main\bin\Release\netcoreapp2.2\7df8c436-75f5-4926-8160-df1ae38ac628
+// command took 3.13s and exited with 0
+// ***** Done, took 00:00:05 (5.56 sec)   *****
+// Found 8 benchmarks:
+//   SortBenches.CSharpMergeSortBench: DefaultJob [N=2000]
+//   SortBenches.FSharpMergeSortBench: DefaultJob [N=2000]
+//   SortBenches.CSharpQuickSortBench: DefaultJob [N=2000]
+//   SortBenches.FSharpQuickSortLinkedListBench: DefaultJob [N=2000]
+//   SortBenches.CSharpMergeSortBench: DefaultJob [N=3000]
+//   SortBenches.FSharpMergeSortBench: DefaultJob [N=3000]
+//   SortBenches.CSharpQuickSortBench: DefaultJob [N=3000]
+//   SortBenches.FSharpQuickSortLinkedListBench: DefaultJob [N=3000]
+
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: High performance)// **************************
+// Benchmark: SortBenches.CSharpMergeSortBench: DefaultJob [N=2000]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "7df8c436-75f5-4926-8160-df1ae38ac628.dll" --benchmarkName "Main.SortBenches.CSharpMergeSortBench(N: 2000)" --job "Default" --benchmarkId 0 in D:\Projects\FP\Lab2\Main\bin\Release\netcoreapp2.2\7df8c436-75f5-4926-8160-df1ae38ac628\bin\Release\netcoreapp2.2
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.2.5 (CoreCLR 4.6.27617.05, CoreFX 4.6.27618.01), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 359500.00 ns, 359.5000 us/op
+WorkloadJitting  1: 1 op, 25768413400.00 ns, 25.7684 s/op
+
+WorkloadWarmup   1: 1 op, 25868872500.00 ns, 25.8689 s/op
+WorkloadWarmup   2: 1 op, 25627929200.00 ns, 25.6279 s/op
+WorkloadWarmup   3: 1 op, 25502073300.00 ns, 25.5021 s/op
+WorkloadWarmup   4: 1 op, 25648987500.00 ns, 25.6490 s/op
+WorkloadWarmup   5: 1 op, 25761055500.00 ns, 25.7611 s/op
+WorkloadWarmup   6: 1 op, 25775579400.00 ns, 25.7756 s/op
+WorkloadWarmup   7: 1 op, 25600160200.00 ns, 25.6002 s/op
+WorkloadWarmup   8: 1 op, 25722879800.00 ns, 25.7229 s/op
+WorkloadWarmup   9: 1 op, 25678158000.00 ns, 25.6782 s/op
+
+// BeforeActualRun
+WorkloadActual   1: 1 op, 25803513200.00 ns, 25.8035 s/op

@@ -1,10 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
+    <e p="C:\Users\egor.manevich\.nuget\packages\microsoft.net.test.sdk\16.1.0\build\netcoreapp1.0" t="Include">
+      <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
+    </e>
+    <e p="C:\Users\egor.manevich\.nuget\packages\nunit3testadapter\3.11.0\build\netcoreapp1.0\nunit.engine.netstandard.dll" t="Include" />
+    <e p="C:\Users\egor.manevich\.nuget\packages\nunit3testadapter\3.11.0\build\netcoreapp1.0\NUnit3.TestAdapter.dll" t="Include" />
+    <e p="C:\Users\egor.manevich\.nuget\packages\nunit3testadapter\3.11.0\build\netcoreapp1.0\NUnit3.TestAdapter.pdb" t="Include" />
+    <e p="C:\Users\egor.manevich\.nuget\packages\nunit3testadapter\3.13.0\build\netcoreapp1.0\nunit.engine.netstandard.dll" t="Include" />
+    <e p="C:\Users\egor.manevich\.nuget\packages\nunit3testadapter\3.13.0\build\netcoreapp1.0\NUnit3.TestAdapter.dll" t="Include" />
+    <e p="C:\Users\egor.manevich\.nuget\packages\nunit3testadapter\3.13.0\build\netcoreapp1.0\NUnit3.TestAdapter.pdb" t="Include" />
     <e p="C:\Users\egor.manevich\.Rider2018.3\config\extensions" t="IncludeRecursive" />
     <e p="C:\Users\egor.manevich\.Rider2018.3\config\scratches" t="IncludeRecursive" />
     <e p="C:\Users\egor.manevich\.Rider2018.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\egor.manevich\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Lab2.-1993236856.00" t="ExcludeRecursive" />
-    <e p="D:\Projects\FP\Lab2" t="IncludeFlat" />
+    <e p="C:\Users\egor.manevich\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Lab2.698985184.00" t="ExcludeRecursive" />
+    <e p="D:\Projects\FP\Lab2" t="IncludeFlat">
+      <e p="CSharp" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CSharp.csproj" t="IncludeRecursive" />
+        <e p="MergeSort.cs" t="Include" />
+        <e p="MergeSortTests.cs" t="Include" />
+        <e p="MiscExtensions.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Release" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="CSharp.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="QuickSort.cs" t="Include" />
+        <e p="QuickSortTests.cs" t="Include" />
+        <e p="TestSources.cs" t="Include" />
+      </e>
+      <e p="FSharp" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Extensions.fs" t="Include" />
+        <e p="FSharp.fsproj" t="IncludeRecursive" />
+        <e p="MergeSort.fs" t="Include" />
+        <e p="MergeSortTests.fs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="QuickSort.fs" t="Include" />
+        <e p="QuickSortTests.fs" t="Include" />
+        <e p="TestSources.fs" t="Include" />
+      </e>
+      <e p="Lab2.sln" t="IncludeFlat" />
+      <e p="Main" t="IncludeRecursive">
+        <e p="BenchmarkDotNet.Artifacts" t="Include">
+          <e p="Main.MergeBenches-20190527-101534.log" t="Include" />
+          <e p="Main.SortBenches-20190527-110825.log" t="Include" />
+          <e p="Main.SortBenches-20190527-111253.log" t="Include" />
+          <e p="Main.SortBenches-20190527-111331.log" t="Include" />
+          <e p="Main.SortBenches-20190527-112239.log" t="Include" />
+          <e p="Main.SortBenches-20190527-112755.log" t="Include" />
+          <e p="Main.SortBenches-20190528-120135.log" t="Include" />
+          <e p="Main.SortTests-20190527-055832.log" t="Include" />
+          <e p="Main.SortTests-20190527-055933.log" t="Include" />
+          <e p="Main.SortTests-20190527-061853.log" t="Include" />
+          <e p="Main.SplitByBenches-20190527-101653.log" t="Include" />
+          <e p="results" t="Include">
+            <e p="Main.MergeBenches-report-github.md" t="Include" />
+            <e p="Main.MergeBenches-report.csv" t="Include" />
+            <e p="Main.MergeBenches-report.html" t="Include" />
+            <e p="Main.SortBenches-report-github.md" t="Include" />
+            <e p="Main.SortBenches-report.csv" t="Include" />
+            <e p="Main.SortBenches-report.html" t="Include" />
+            <e p="Main.SortTests-report-github.md" t="Include" />
+            <e p="Main.SortTests-report.csv" t="Include" />
+            <e p="Main.SortTests-report.html" t="Include" />
+            <e p="Main.SplitByBenches-report-github.md" t="Include" />
+            <e p="Main.SplitByBenches-report.csv" t="Include" />
+            <e p="Main.SplitByBenches-report.html" t="Include" />
+          </e>
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Main.csproj" t="IncludeRecursive" />
+        <e p="MergeBenches.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Release" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Main.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="SortBenches.cs" t="Include" />
+        <e p="SplitByBenches.cs" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
   </component>
 </project>

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
@@ -7,14 +7,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FsUnit" Version="3.4.0" />
     <PackageReference Include="nunit" Version="3.11.0" />
     <PackageReference Include="NUnit3TestAdapter" Version="3.11.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Include="UnitTest1.fs"/>
-    <Compile Include="Program.fs"/>
+    <Compile Include="Extensions.fs" />
+    <Compile Include="TestSources.fs" />
+    <Compile Include="MergeSort.fs" />
+    <Compile Include="MergeSortTests.fs" />
+    <Compile Include="QuickSort.fs" />
+    <Compile Include="QuickSortTests.fs" />
   </ItemGroup>
 
 </Project>

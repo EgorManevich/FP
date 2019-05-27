@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>Main.SortBenches-20190528-120140</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet=v0.11.5, OS=Windows 10.0.17763.503 (1809/October2018Update/Redstone5)
+Intel Core i5-3570 CPU 3.40GHz (Ivy Bridge), 1 CPU, 4 logical and 4 physical cores
+.NET Core SDK=2.2.107
+  [Host]     : .NET Core 2.2.5 (CoreCLR 4.6.27617.05, CoreFX 4.6.27618.01), 64bit RyuJIT
+  DefaultJob : .NET Core 2.2.5 (CoreCLR 4.6.27617.05, CoreFX 4.6.27618.01), 64bit RyuJIT
+</code></pre>
+<pre><code></code></pre>
+
+<table>
+<thead><tr><th>                  Method</th><th>N</th><th>   Mean</th><th>  Error</th><th> StdDev</th><th>Gen 0</th><th>Gen 1</th><th>Gen 2</th><th>Allocated</th>
+</tr>
+</thead><tbody><tr><td>CSharpMergeSortBench</td><td>100</td><td>4,877.64 us</td><td>41.9686 us</td><td>39.2575 us</td><td>789.0625</td><td>-</td><td>-</td><td>2435.44 KB</td>
+</tr><tr><td>FSharpMergeSortBench</td><td>100</td><td>45.80 us</td><td>0.8943 us</td><td>1.0982 us</td><td>24.1089</td><td>-</td><td>-</td><td>74.09 KB</td>
+</tr><tr><td>CSharpQuickSortBench</td><td>100</td><td>65.50 us</td><td>0.2191 us</td><td>0.1942 us</td><td>22.9492</td><td>-</td><td>-</td><td>70.7 KB</td>
+</tr><tr><td>FSharpQuickSortLinkedListBench</td><td>100</td><td>213.06 us</td><td>2.5355 us</td><td>2.3717 us</td><td>192.6270</td><td>-</td><td>-</td><td>592.36 KB</td>
+</tr><tr><td>CSharpMergeSortBench</td><td>200</td><td>30,531.86 us</td><td>112.0274 us</td><td>99.3094 us</td><td>3093.7500</td><td>-</td><td>-</td><td>9509.95 KB</td>
+</tr><tr><td>FSharpMergeSortBench</td><td>200</td><td>104.10 us</td><td>0.5256 us</td><td>0.4659 us</td><td>53.8330</td><td>-</td><td>-</td><td>165.38 KB</td>
+</tr><tr><td>CSharpQuickSortBench</td><td>200</td><td>144.99 us</td><td>1.5900 us</td><td>1.4873 us</td><td>47.3633</td><td>-</td><td>-</td><td>146.15 KB</td>
+</tr><tr><td>FSharpQuickSortLinkedListBench</td><td>200</td><td>465.25 us</td><td>0.9925 us</td><td>0.8798 us</td><td>433.5938</td><td>-</td><td>-</td><td>1333.2 KB</td>
+</tr><tr><td>CSharpMergeSortBench</td><td>300</td><td>98,278.15 us</td><td>742.3274 us</td><td>694.3736 us</td><td>6666.6667</td><td>-</td><td>-</td><td>20648.33 KB</td>
+</tr><tr><td>FSharpMergeSortBench</td><td>300</td><td>167.87 us</td><td>0.4872 us</td><td>0.4068 us</td><td>85.2051</td><td>-</td><td>-</td><td>261.84 KB</td>
+</tr><tr><td>CSharpQuickSortBench</td><td>300</td><td>223.92 us</td><td>1.5402 us</td><td>1.4407 us</td><td>72.0215</td><td>-</td><td>-</td><td>221.27 KB</td>
+</tr><tr><td>FSharpQuickSortLinkedListBench</td><td>300</td><td>1,272.03 us</td><td>30.1845 us</td><td>30.9972 us</td><td>1304.6875</td><td>-</td><td>-</td><td>4010.09 KB</td>
+</tr><tr><td>CSharpMergeSortBench</td><td>400</td><td>226,668.94 us</td><td>1,826.5497 us</td><td>1,708.5557 us</td><td>11666.6667</td><td>-</td><td>-</td><td>36660.55 KB</td>
+</tr><tr><td>FSharpMergeSortBench</td><td>400</td><td>237.33 us</td><td>0.9780 us</td><td>0.8166 us</td><td>118.1641</td><td>-</td><td>-</td><td>363.68 KB</td>
+</tr><tr><td>CSharpQuickSortBench</td><td>400</td><td>329.79 us</td><td>2.0641 us</td><td>1.9307 us</td><td>99.6094</td><td>-</td><td>-</td><td>306.16 KB</td>
+</tr><tr><td>FSharpQuickSortLinkedListBench</td><td>400</td><td>1,148.27 us</td><td>4.9538 us</td><td>4.6338 us</td><td>1115.2344</td><td>-</td><td>-</td><td>3430.16 KB</td>
+</tr></tbody></table>
+</body>
+</html>

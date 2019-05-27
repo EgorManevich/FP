@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>Main.MergeBenches-20190527-101540</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet=v0.11.5, OS=Windows 10.0.17763.503 (1809/October2018Update/Redstone5)
+Intel Core i5-3570 CPU 3.40GHz (Ivy Bridge), 1 CPU, 4 logical and 4 physical cores
+.NET Core SDK=2.2.107
+  [Host]     : .NET Core 2.2.5 (CoreCLR 4.6.27617.05, CoreFX 4.6.27618.01), 64bit RyuJIT
+  DefaultJob : .NET Core 2.2.5 (CoreCLR 4.6.27617.05, CoreFX 4.6.27618.01), 64bit RyuJIT
+</code></pre>
+<pre><code></code></pre>
+
+<table>
+<thead><tr><th>        Method</th><th>Mean</th><th>Error</th><th>StdDev</th><th>Gen 0</th><th>Gen 1</th><th>Gen 2</th><th>Allocated</th>
+</tr>
+</thead><tbody><tr><td>CSharpMergeBench</td><td>3,718.1 ns</td><td>10.411 ns</td><td>9.738 ns</td><td>1.2589</td><td>-</td><td>-</td><td>3.88 KB</td>
+</tr><tr><td>FSharpMergeListBench</td><td>917.9 ns</td><td>8.008 ns</td><td>7.098 ns</td><td>0.3939</td><td>-</td><td>-</td><td>1.21 KB</td>
+</tr><tr><td>FSharpMergeSeqBench</td><td>5,968.3 ns</td><td>29.852 ns</td><td>24.928 ns</td><td>2.9068</td><td>-</td><td>-</td><td>8.95 KB</td>
+</tr></tbody></table>
+</body>
+</html>
